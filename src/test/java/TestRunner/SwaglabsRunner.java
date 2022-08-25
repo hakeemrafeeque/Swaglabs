@@ -9,5 +9,5 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/resources/Feature", glue={"StepDefinitions"},
 monochrome = true, plugin={"pretty", "html:target/reports/report.html"})
 public class SwaglabsRunner {
-
+    
 }
