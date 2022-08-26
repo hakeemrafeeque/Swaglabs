@@ -28,10 +28,10 @@ public class finalPage {
     WebElement e = driver.findElement(textValidation);
     String text = "THANK YOU FOR YOUR ORDER";
 	
-        if (e.isDisplayed()){
-           System.out.println("Text: " + text + " is present. ");
-        } else {
+        if (!e.isDisplayed()){
            System.out.println("Text: " + text + " is not present. ");
+        } else {
+           System.out.println("Text: " + text + " is present. ");
         }
 
   }
